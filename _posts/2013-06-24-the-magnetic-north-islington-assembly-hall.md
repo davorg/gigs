@@ -23,7 +23,7 @@ I saw The Magnetic North play at the [Purcell Room](/venues/purcell-room) last y
 
 **Support**
 
-Support was from [Faroe](/acts/faroe). I saw them a few weeks ago supporting [Paper Aeroplanes](/acts/paper-aeroplanes) and thought they were very good. I was really happy to hear that they were support at this gig. They are two Norwegian women who sing lovely songs accompanied by an acoustic guitar. I found that I recognised a couple of the songs that they had played the last time I saw them - which means they must have made an impression on my. I'll be investigating them further.
+Support was from [Faroe](/acts/farao). I saw them a few weeks ago supporting [Paper Aeroplanes](/acts/paper-aeroplanes) and thought they were very good. I was really happy to hear that they were support at this gig. They are two Norwegian women who sing lovely songs accompanied by an acoustic guitar. I found that I recognised a couple of the songs that they had played the last time I saw them - which means they must have made an impression on my. I'll be investigating them further.
 
 **Headline**
 
