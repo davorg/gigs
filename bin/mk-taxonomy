@@ -1,0 +1,37 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use utf8;
+use XML::LibXML;
+
+my $wxr = shift || 'wordpress.xml';
+my $dom = XML::LibXML->load_xml(location => $wxr);
+
+binmode STDOUT, ':utf8';
+
+sub dump_map {
+  my ($nodes, $slug_xpath, $name_xpath) = @_;
+  my %map;
+  for my $n ($nodes->@*) {
+    my ($slug) = map $_->textContent, $n->findnodes($slug_xpath);
+    my ($name) = map $_->textContent, $n->findnodes($name_xpath);
+    next unless defined $slug && defined $name && $slug ne '' && $name ne '';
+    $map{$slug} = $name;
+  }
+  return \%map;
+}
+
+my @cats = $dom->findnodes('//wp:category');
+my @tags = $dom->findnodes('//wp:tag');
+
+my $vmap = dump_map(\@cats, 'wp:category_nicename', 'wp:cat_name');
+my $amap = dump_map(\@tags, 'wp:tag_slug',          'wp:tag_name');
+
+sub to_yaml {
+  my ($href) = @_;
+  join "", map { "$_: \"$href->{$_}\"\n" } sort keys %$href;
+}
+
+print "--- venues.yml ---\n", to_yaml($vmap), "\n";
+print "--- acts.yml ---\n",    to_yaml($amap), "\n";
+

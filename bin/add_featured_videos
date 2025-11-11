@@ -1,0 +1,109 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use utf8;
+
+use Getopt::Long qw(GetOptions);
+use File::Glob qw(bsd_glob);
+use File::Basename qw(basename);
+use XML::LibXML;
+
+use Data::Printer;
+
+# -------------------- CLI --------------------
+my $dry_run = 0;
+GetOptions(
+  'dry-run!' => \$dry_run,
+) or die "Usage: $0 [--dry-run] wordpress.xml\n";
+
+my $wxr = shift || die "Usage: $0 [--dry-run] wordpress.xml\n";
+
+# -------------------- Parse WXR --------------------
+my $dom = XML::LibXML->load_xml(location => $wxr);
+
+# Register namespaces explicitly (WXR uses them)
+my $xpc = XML::LibXML::XPathContext->new($dom);
+$xpc->registerNs( wp => 'http://wordpress.org/export/1.2/' );
+$xpc->registerNs( content => 'http://purl.org/rss/1.0/modules/content/' );
+$xpc->registerNs( dc => 'http://purl.org/dc/elements/1.1/' );
+
+# Collect videos: slug -> { date => YYYY-MM-DD, url => https://... }
+my %video;
+
+for my $item ($xpc->findnodes('//item')) {
+    my ($type)     = map $_->textContent, $xpc->findnodes('./wp:post_type',  $item);
+    next unless defined $type && $type eq 'post';
+
+    my ($slug)     = map $_->textContent, $xpc->findnodes('./wp:post_name',  $item);
+    my ($raw_date) = map $_->textContent, $xpc->findnodes('./wp:post_date',  $item);
+    my ($date) = $raw_date =~ /^(\d{4}-\d{2}-\d{2})/;
+    next unless $slug && $date;
+
+    my $url;
+    for my $pm ($xpc->findnodes('./wp:postmeta', $item)) {
+        my ($k) = map $_->textContent, $xpc->findnodes('./wp:meta_key',   $pm);
+        next unless defined $k && $k eq '_fvp_video';
+        my ($v) = map $_->textContent, $xpc->findnodes('./wp:meta_value', $pm);
+
+        # Extract the "full" URL from the PHP-serialized array
+        ($url) = $v =~ /s:4:"full";s:\d+:"([^"]+)"/;
+        last if $url;
+    }
+    next unless $url;
+
+    $video{$slug} = { date => $date, url => $url };
+}
+
+# -------------------- Dry run? --------------------
+print "Found videos for ", scalar(keys %video), " posts\n";
+if ($dry_run) {
+  p %video;
+  exit;
+}
+
+# -------------------- Mutating pass (write featuredVideo) --------------------
+print "Found videos for ", scalar(keys %video), " posts\n";
+
+POST: for my $slug (keys %video) {
+    my $date = $video{$slug}{date};
+    my $url  = $video{$slug}{url};
+
+    # Preferred exact filename; otherwise glob by slug
+    my $exact = "new/_posts/$date-$slug.md";
+    my @candidates = -f $exact ? ($exact) : bsd_glob("new/_posts/*-$slug.md");
+    unless (@candidates) {
+        warn "No post file found for slug '$slug'\n";
+        next POST;
+    }
+    my $file = $candidates[0];
+
+    open my $fh, '<:utf8', $file or die "Can't read $file: $!";
+    local $/; my $txt = <$fh>; close $fh;
+
+    unless ($txt =~ /\A---\s*\n/s) {
+        warn "No front matter in $file\n";
+        next POST;
+    }
+    my ($fm, $body) = $txt =~ /\A---\s*\n(.*?\n)---\s*\n(.*)\z/s;
+    unless (defined $fm) {
+        warn "Unparseable front matter in $file\n";
+        next POST;
+    }
+
+    if ($fm =~ /^featuredVideo\s*:/m) {
+        # already present; skip
+        next POST;
+    }
+
+    my $line = qq{featuredVideo: "$url"\n};
+    my $new  = "---\n$fm$line---\n$body";
+
+    open my $out, '>:utf8', $file or die "Can't write $file: $!";
+    print {$out} $new;
+    close $out;
+
+    print "Updated $file with featuredVideo\n";
+}
+
+exit 0;
+

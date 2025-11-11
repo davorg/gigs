@@ -1,0 +1,129 @@
+---
+# Custom post layout using Minima's head/header/footer
+---
+
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body class="layout-post">
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+          <header class="post-header">
+          {% if page.previous or page.next %}
+            <nav class="post-nav" aria-label="Post navigation">
+              {% if page.previous %}
+                <a class="post-nav__prev" rel="prev" href="{{ page.previous.url | relative_url }}">
+                  ← Older: {{ page.previous.title }}
+                </a>
+              {% endif %}
+              {% if page.next %}
+                <a class="post-nav__next" rel="next" href="{{ page.next.url | relative_url }}">
+                  Newer: {{ page.next.title }} →
+                </a>
+              {% endif %}
+            </nav>
+          {% endif %}
+
+            <h1 class="post-title p-name" itemprop="headline">{{ page.title | escape }}</h1>
+
+            <p class="post-meta">
+              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              • Date: {{ page.date | date: "%d" }}&nbsp;
+              {%- assign y = page.date | date: "%Y" -%}
+              {%- assign m = page.date | date: "%m" -%}
+              <a href="{{ '/' | append: y | append: '/' | append: m | append: '/' | relative_url }}">{{ page.date | date: "%B" }}</a>
+              <a href="{{ '/' | append: y | append: '/' | relative_url }}">{{ y}}</a>
+              </time>
+
+              {%- assign venue = page.categories | first -%}
+              {%- if venue -%}
+                {%- assign venue_slug = venue | slugify -%}
+                {%- assign venue_name = site.data.venues[venue_slug] | default: venue -%}
+                <br>• Venue:
+                <a href="{{ '/venues/' | append: venue_slug | append: '/' | relative_url }}">{{ venue_name }}</a>
+              {%- endif -%}
+
+              {%- if page.tags and page.tags != empty -%}
+              <br>• Acts:&nbsp;
+              {%- for act in page.tags -%}
+                {%- assign act_slug = act | slugify -%}
+                {%- assign act_name = site.data.acts[act_slug] | default: act -%}
+                <a href="{{ '/acts/' | append: act_slug | append: '/' | relative_url }}">{{ act_name }}</a>{% unless forloop.last %}, {% endunless %}
+              {%- endfor -%}
+            {%- endif -%}
+            </p>
+
+{%- comment -%} Featured media: prefer video, else image {%- endcomment -%}
+{%- if page.featuredVideo -%}
+  {%- assign v = page.featuredVideo -%}
+  {%- assign id = nil -%}
+  {%- if v contains 'youtu.be/' -%}
+    {%- assign id = v | split: 'youtu.be/' | last | split: '?' | first -%}
+  {%- elsif v contains 'watch?v=' -%}
+    {%- assign id = v | split: 'v=' | last | split: '&' | first -%}
+  {%- endif -%}
+  {%- if id -%}
+    <div class="gig-video" style="margin:1rem 0 2rem">
+      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+        <iframe
+          src="https://www.youtube.com/embed/{{ id }}"
+          title="{{ page.title | escape }}"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          style="position:absolute;top:0;left:0;width:100%;height:100%;border:0">
+        </iframe>
+      </div>
+    </div>
+  {%- endif -%}
+{%- elsif page.coverImage and page.coverImage != '' -%}
+  {%- assign y = page.date | date: "%Y" -%}
+  {%- assign m = page.date | date: "%m" -%}
+  {%- capture img_path -%}/assets/uploads/posts/{{ y }}/{{ m }}/images/{{ page.coverImage }}{%- endcapture -%}
+  <figure class="gig-cover" style="margin:1rem 0 2rem">
+    <img src="{{ img_path | relative_url }}" alt="{{ page.title | escape }}" loading="lazy">
+  </figure>
+{%- endif -%}
+
+          </header>
+
+          <div class="post-content e-content" itemprop="articleBody">
+            {{ content }}
+          </div>
+
+{%- assign tag = site.amazon.tag | default: 'davblog-21' -%}
+{%- assign thumb_px = site.amazon.thumb_px | default: 120 -%}
+
+{%- if page.asins and page.asins.size > 0 -%}
+  <div class="amazon-row" style="--thumb: {{ thumb_px }}px;">
+    {%- for asin in page.asins -%}
+      {%- assign A = asin | upcase -%}
+      {%- assign local = '/assets/amazon/' | append: A | append: '.jpg' -%}
+      {% assign local_file = site.static_files | where: 'path', local | first %}
+      {%- assign href = 'https://www.amazon.co.uk/dp/' | append: A | append: '/?tag=' | append: tag -%}
+      {%- assign legacy = 'https://images.amazon.com/images/P/' | append: A | append: '.jpg' -%}
+
+      <a class="amazon-item" href="{{ href }}" rel="nofollow sponsored" target="_blank">
+        {%- if local_file -%}
+          <img src="{{ local | relative_url }}" alt="Album {{ A }} on Amazon" loading="lazy" decoding="async" width="{{ thumb_px }}" height="{{ thumb_px }}">
+        {%- else -%}
+          <img src="{{ legacy }}" alt="Album {{ A }} on Amazon" loading="lazy" decoding="async" width="{{ thumb_px }}" height="{{ thumb_px }}" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-block'">
+          <span class="amazon-chip" style="display:none">{{ A }}</span>
+        {%- endif -%}
+      </a>
+    {%- endfor -%}
+  </div>
+  <p class="amazon-disclaimer">As an Amazon Associate I earn from qualifying purchases.</p>
+{%- endif -%}
+
+        </article>
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
+

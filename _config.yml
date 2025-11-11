@@ -1,0 +1,65 @@
+title: Dave's Gig Reviews
+description: Reviews of some gigs from the distant past
+url: "https://gigs.dave.org.uk"
+baseurl: ""            # e.g. "/gigs" if hosted under a subpath
+permalink: /:year/:month/:title/
+
+author:
+  name: Dave Cross
+
+social:
+  name: Dave Cross
+  links:
+    - https://gitub.com/davorg
+    - https://instagram.com/davorg
+
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Generate per-venue (category) and per-act (tag) pages
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+    - year
+    - month
+  layouts:
+    category: venue     # uses _layouts/venue.html
+    tag: act            # uses _layouts/act.html
+    year: year
+    month: month
+  permalinks:
+    category: /venues/:name/
+    tag: /acts/:name/
+    year: /:year/
+    month: /:year/:month/
+
+header_pages:
+  - index.md
+  - acts/index.md
+  - venues/index.md
+
+google_analytics: G-2F8LZNXGVG
+
+amazon:
+  tag: davblog-21     # your UK Associate ID
+  market: GB          # UK marketplace
+  img_format: SL160   # image size: SL75/SL110/SL160/SL250...
+
+# useful defaults
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: gig
+  - scope:
+      path: ""
+    values:
+      layout: post
+

@@ -1,0 +1,23 @@
+---
+# Month archive
+---
+<!doctype html>
+<html lang="en">
+  {% include head.html %}<body class="layout-archive">{% include header.html %}
+  <main class="page-content" aria-label="Content"><div class="wrapper">
+    {%- assign segs = page.url | split:'/' | compact -%}
+    {%- assign year = segs[1] -%}
+    {%- assign month = segs[2] -%}
+    {%- capture date_str %}{{ year }}-{{ month }}-01{% endcapture -%}
+    {%- assign date_obj = date_str | date: "%Y-%m-%d" -%}
+    <h1>Month: {{ date_obj | date: "%B %Y" }}</h1>
+    <ul>
+      {% assign posts = page.posts | sort: "date" | reverse %}
+      {% for p in posts %}
+        <li><a href="{{ p.url | relative_url }}">{{ p.date | date: "%Y-%m-%d" }} — {{ p.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div></main>
+  {% include footer.html %}</body>
+</html>
+

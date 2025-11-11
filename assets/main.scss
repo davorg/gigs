@@ -1,0 +1,20 @@
+---
+# leave this front matter so Jekyll processes the file
+---
+
+@import "minima"; /* keep Minima styles */
+
+/* Your additions */
+.amazon-row { display:flex; gap:.75rem; flex-wrap:wrap; margin:1.5rem 0 0; }
+.amazon-item { display:block; line-height:0; }
+.amazon-item img { display:block; width: var(--thumb, 120px); height: var(--thumb, 120px); object-fit: cover; border-radius: 4px; }
+.amazon-chip { display:inline-block; padding:.4rem .6rem; border:1px solid #ddd; border-radius:4px; font-size:.9rem; line-height:1; }
+.amazon-disclaimer { font-size:.9rem; opacity:.7; margin-top:.5rem; }
+
+.post-nav {
+  display:flex; justify-content:space-between; gap:1rem; margin-bottom:.75rem;
+  font-size:.95rem; opacity:.9;
+}
+.post-nav a { text-decoration:none; }
+.post-nav a:hover { text-decoration:underline; }
+

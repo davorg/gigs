@@ -1,0 +1,19 @@
+---
+# Year archive
+---
+<!doctype html>
+<html lang="en">
+  {% include head.html %}<body class="layout-archive">{% include header.html %}
+  <main class="page-content" aria-label="Content"><div class="wrapper">
+    {%- assign year = page.url | split:'/' | compact | last -%}
+    <h1>Year: {{ year }}</h1>
+    <ul>
+      {% assign posts = page.posts | sort: "date" | reverse %}
+      {% for p in posts %}
+        <li><a href="{{ p.url | relative_url }}">{{ p.date | date: "%Y-%m-%d" }} — {{ p.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div></main>
+  {% include footer.html %}</body>
+</html>
+

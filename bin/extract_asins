@@ -1,0 +1,114 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use utf8;
+
+use Getopt::Long qw(GetOptions);
+use File::Find ();
+use Encode qw(decode encode);
+
+my $write = 0;
+my $root  = "_posts";
+GetOptions(
+  'write!' => \$write,
+  'root=s' => \$root,   # override posts dir if needed
+) or die "Usage: $0 [--write] [--root _posts]\n";
+
+my @files;
+File::Find::find(
+  { wanted => sub { push @files, $File::Find::name if -f && /\.md$/i }, no_chdir => 1 },
+  $root
+);
+
+my $updated = 0;
+my $seen_any;
+
+for my $file (@files) {
+  open my $fh, "<:raw", $file or die "Can't read $file: $!";
+  local $/; my $raw = <$fh>; close $fh;
+  my $txt = decode('UTF-8', $raw);
+
+  # Split front-matter / body
+  unless ($txt =~ /\A---\s*\n/s) { next } # skip files without front matter
+  my ($fm, $body) = $txt =~ /\A---\s*\n(.*?\n)---\s*\n(.*)\z/s;
+  next unless defined $fm;
+
+  my @new_asins;
+
+  # Regex: matches [amazon ...] or \[amazon ...] blocks, even if several concatenated.
+  # Capture asin=XXXXXXXXXX (A–Z/0–9, 10 chars).
+  my $changed_body = $body;
+  my $asin_re = qr{
+    \\?                           # optional backslash-escape
+    \[
+      amazon\b                    # shortcode name
+      [^\]]*?                     # attributes
+      \basin=([A-Za-z0-9]{10})    # capture ASIN
+      [^\]]*?
+    \]
+  }x;
+
+  while ($changed_body =~ /$asin_re/g) {
+    push @new_asins, uc($1);
+  }
+
+  # If nothing found, continue
+  next unless @new_asins;
+  $seen_any = 1;
+
+  # Remove ALL amazon shortcodes (escaped or not)
+  $changed_body =~ s/$asin_re//g;
+
+  # Tidy up any leftover excessive spaces where shortcodes sat
+  $changed_body =~ s/[ \t]+$//mg;
+  $changed_body =~ s/\n{3,}/\n\n/g;
+
+  # Merge with existing asins in FM (if present)
+  my @existing;
+  if ($fm =~ /^asins:\s*\[(.*?)\]\s*$/m) {
+    # inline YAML list
+    my $list = $1;
+    @existing = map { uc($_) } grep { length } map { s/^\s*"?([A-Za-z0-9]{10})"?\s*$/$1/r } split /,/, $list;
+    # remove existing inline line; we'll re-emit canonical block list
+    $fm =~ s/^asins:\s*\[.*?\]\s*$//m;
+  } elsif ($fm =~ /^asins:\s*\n((?:\s*-\s*.*\n)+)/m) {
+    my $block = $1;
+    for my $line (split /\n/, $block) {
+      if ($line =~ /-\s*"?([A-Za-z0-9]{10})"?\s*$/) {
+        push @existing, uc($1);
+      }
+    }
+    # remove existing block; we'll re-emit
+    $fm =~ s/^asins:\s*\n(?:(?:\s*-\s*.*\n)+)//m;
+  }
+
+  # de-dupe and sort for stability
+  my %uniq = map { $_ => 1 } (@existing, @new_asins);
+  my @asins = sort keys %uniq;
+
+  # Insert new asins block before closing ---
+  my $asins_yaml = "asins:\n" . join("", map { "  - $_\n" } @asins);
+  my $new_fm = $fm;
+  $new_fm =~ s/\s+\z//; # trim trailing
+  my $new_txt = "---\n$new_fm\n$asins_yaml\n---\n$changed_body";
+
+  if ($write) {
+    open my $out, ">:raw", $file or die "Can't write $file: $!";
+    print {$out} encode('UTF-8', $new_txt);
+    close $out;
+    $updated++;
+    print "Updated $file (ASINs: ", join(", ", @asins), ")\n";
+  } else {
+    print "[DRY] $file: would set asins: [", join(", ", @asins), "] and remove ", scalar(@new_asins), " shortcode(s)\n";
+  }
+}
+
+if ($write) {
+  print "Done. Updated $updated files.\n";
+} else {
+  print "Dry run complete.",
+        ($seen_any ? "" : " No ASIN shortcodes found."),
+        "\n";
+  print "Re-run with --write to apply changes.\n";
+}
+
