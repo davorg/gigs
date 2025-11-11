@@ -19,7 +19,7 @@ No video from the night, so here's a recent single.
 
 **Why this gig?**
 
-I saw Soak when [she supported Chvrches](https://gigs.dave.org.uk/2014/03/chvrches-forum/) last year. At the time I said that I'd look out for her playing in London again. This was the first date that I spotted.
+I saw Soak when [she supported Chvrches](/2014/03/chvrches-forum/) last year. At the time I said that I'd look out for her playing in London again. This was the first date that I spotted.
 
 **Support**
 

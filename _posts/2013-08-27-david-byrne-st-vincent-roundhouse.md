@@ -20,9 +20,9 @@ asins:
 
 **Why This Gig?**
 
-I've been a fan of [David Byrne](https://gigs.dave.org.uk/tag/david-byrne) since first hearing "Psycho Killer" about thirty-five years ago. And I've never seen him live. This was a great opportunity to put that right.
+I've been a fan of [David Byrne](/acts/david-byrne) since first hearing "Psycho Killer" about thirty-five years ago. And I've never seen him live. This was a great opportunity to put that right.
 
-I first saw [St Vincent](https://gigs.dave.org.uk/tag/st-vincent) at the Rain Dogs Revisited show at the [Barbican](https://gigs.dave.org.uk/category/barbican/) a couple of years ago. She was wonderful and I now see her whenever I can.
+I first saw [St Vincent](/iacts/st-vincent) at the Rain Dogs Revisited show at the [Barbican](/venue/barbican/) a couple of years ago. She was wonderful and I now see her whenever I can.
 
 So when I first heard that they were making an album together, I knew I had to see the live show. The album is called [_Love This Giant_](http://www.amazon.co.uk/gp/product/B0094YPMEW/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0094YPMEW&linkCode=as2&tag=davblog-21) and it's really good.
 

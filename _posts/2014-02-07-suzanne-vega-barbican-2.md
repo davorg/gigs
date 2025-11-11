@@ -20,7 +20,7 @@ asins:
 
 **Why this gig?**
 
-I was a huge fan of Suzanne Vega back in the 80s (wasn't everyone?) I saw her a few times back then, but got out of the habit of seeing her live at some point in the mid-90s. But a couple of years ago I saw her at the [Union Chapel](https://gigs.dave.org.uk/category/union-chapel/) and enjoyed it so much that I've seen her whenever possible since.
+I was a huge fan of Suzanne Vega back in the 80s (wasn't everyone?) I saw her a few times back then, but got out of the habit of seeing her live at some point in the mid-90s. But a couple of years ago I saw her at the [Union Chapel](/venues/union-chapel/) and enjoyed it so much that I've seen her whenever possible since.
 
 **Support**
 

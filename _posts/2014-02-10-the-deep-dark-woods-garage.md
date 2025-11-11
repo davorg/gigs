@@ -29,7 +29,7 @@ I had never heard of The Deep Dark Woods before buying my ticket for this show. 
 
 There were two support acts. The first were called [Biederbeck](http://biederbeck.co.uk/). It's been a while since the show (real life and a holiday stopped me writing this review sooner) and I've pretty much forgotten what they were like. I'm just listening to the video on their web site and it's not bringing back any memories. Not a good sign really.
 
-Then Trembling Bells came on. Someone suggested them to me a couple of years ago because they knew I was a big fan of [Tunng](https://gigs.dave.org.uk/tag/tunng/). And they were right, I love Trembling Bells too. But this is the first time I've seen them. And they were great. Exactly the kind of experimental folky music I love. I hope to see them again soon.
+Then Trembling Bells came on. Someone suggested them to me a couple of years ago because they knew I was a big fan of [Tunng](/acts/tunng/). And they were right, I love Trembling Bells too. But this is the first time I've seen them. And they were great. Exactly the kind of experimental folky music I love. I hope to see them again soon.
 
 **Headline**
 

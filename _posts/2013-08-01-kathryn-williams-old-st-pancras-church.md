@@ -21,11 +21,11 @@ asins:
 
 I've been a big fan of Kathryn Williams for years, but for some reason I hadn't got round to seeing her until recently. I had a ticket to see her last year, but the show was postponed and I was already busy on the revised date (something that led to [a huge argument with See Tickets](http://blog.dave.org.uk/2012/05/see-tickets.html)). Then I bought a ticket to see her in Islington a couple of months ago - only to find that I had inadvertently double-booked myself for that night.
 
-I did finally get to see her a couple of weeks ago. She was [at the London Folkfest](https://gigs.dave.org.uk/2013/07/london-folkfest-day-3-the-bedford/). At by that point I had already got a ticket for this gig too. She's a lovely person and she makes lovely music. So I want to support her however I can.
+I did finally get to see her a couple of weeks ago. She was [at the London Folkfest](/2013/07/london-folkfest-day-3-the-bedford/). At by that point I had already got a ticket for this gig too. She's a lovely person and she makes lovely music. So I want to support her however I can.
 
 **Support**
 
-Support came from [Chris Simmons](https://twitter.com/silentbroadcast‎), a singer-songwriter from Brighton. He only played a few songs, but they were all very good. It's a very small venue and at one point he took advantage of that fact and played a song completely unplugged.
+Support came from [Chris Simmons](https://twitter.com/silentbroadcast), a singer-songwriter from Brighton. He only played a few songs, but they were all very good. It's a very small venue and at one point he took advantage of that fact and played a song completely unplugged.
 
 **Headline**
 

@@ -17,7 +17,7 @@ asins:
 
 **Why this gig?**
 
-Because I saw HAIM [back in December](https://gigs.dave.org.uk/2013/12/haim-forum/) and I thought they were great. And until they stop being great I shall see them live at every opportunity. (Actually, I bought the ticket for this show before the show in December because I had a sneaking suspicion that I'd want to see them again as soon as possible.)
+Because I saw HAIM [back in December](/2013/12/haim-forum/) and I thought they were great. And until they stop being great I shall see them live at every opportunity. (Actually, I bought the ticket for this show before the show in December because I had a sneaking suspicion that I'd want to see them again as soon as possible.)
 
 **Support**
 

@@ -31,7 +31,7 @@ But it's still the older stuff that gets the audience the most excited. "New in 
 
 After less than an hour the set draws to a close with "Stuck on Repeat" and "Satellite". But after a short break (just long enough for Little Boots to get into her LED dress) the band return for an encore which includes "Remedy", one of my favourite Little Boots songs.
 
-It's tempting to draw comparisons with [Goldfrapp](https://gigs.dave.org.uk/tag/goldfrapp/), who I saw a couple of weeks ago. Given the choice I'd far rather see Little Boots again. I just wish she'd play for a little longer.
+It's tempting to draw comparisons with [Goldfrapp](/acts/goldfrapp/), who I saw a couple of weeks ago. Given the choice I'd far rather see Little Boots again. I just wish she'd play for a little longer.
 
 The set list is on [Setlist.fm](http://www.setlist.fm/setlist/little-boots/2013/heaven-london-england-73c43a71.html) and you can buy a [CD of the show](https://www.concertlive.co.uk/product.php?id=187) from Concert Live.
 

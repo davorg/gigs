@@ -19,7 +19,7 @@ asins:
 
 **Why this gig?**
 
-This was another of those gigs where I thought I'd take a bit of a punt. I liked "Groovejet", of course, and I bought [Sophie Ellis-Bextor's first album](http://www.amazon.co.uk/gp/product/B000068UM0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000068UM0&linkCode=as2&tag=davblog-21). I haven't heard anything she's done for about ten years, but the [Union Chapel](https://gigs.dave.org.uk/category/union-chapel/) is a great venue, so I thought I'd give it a go.
+This was another of those gigs where I thought I'd take a bit of a punt. I liked "Groovejet", of course, and I bought [Sophie Ellis-Bextor's first album](http://www.amazon.co.uk/gp/product/B000068UM0/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000068UM0&linkCode=as2&tag=davblog-21). I haven't heard anything she's done for about ten years, but the [Union Chapel](/venues/union-chapel/) is a great venue, so I thought I'd give it a go.
 
 **Support**
 

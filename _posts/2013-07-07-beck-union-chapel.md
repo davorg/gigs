@@ -18,7 +18,7 @@ asins:
 
 **Why This Gig?**
 
-Beck is one of those singers who I've known about for a long and never really paid much attention to. So when I saw that he was playing at the [Union Chapel](https://gigs.dave.org.uk/category/union-chapel/) I thought that it would be a good opportunity to see what I was missing out on.
+Beck is one of those singers who I've known about for a long and never really paid much attention to. So when I saw that he was playing at the [Union Chapel](/venues/union-chapel/) I thought that it would be a good opportunity to see what I was missing out on.
 
 **Support**
 

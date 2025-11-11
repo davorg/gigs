@@ -30,7 +30,7 @@ There's [one particular song](http://blog.dave.org.uk/2013/07/amanda-palmer-vs-t
 
 Because it's Amanda Palmer and it's my considered opinion that she is currently one of the best live performers in the world.
 
-I admit I came to Amanda Palmer rather late. The Dresden Dolls completely passed me by. I only became aware of her work when she started a relationship with Neil Gaiman. I saw her show at the [Union Chapel](https://gigs.dave.org.uk/category/union-chapel/) in 2009 (largely, to be honest, because I wanted to see Polly Scattergood who was supporting) and was so blown away that I've seen her at pretty much every opportunity since then.
+I admit I came to Amanda Palmer rather late. The Dresden Dolls completely passed me by. I only became aware of her work when she started a relationship with Neil Gaiman. I saw her show at the [Union Chapel](/venues/union-chapel/) in 2009 (largely, to be honest, because I wanted to see Polly Scattergood who was supporting) and was so blown away that I've seen her at pretty much every opportunity since then.
 
 **Support**
 

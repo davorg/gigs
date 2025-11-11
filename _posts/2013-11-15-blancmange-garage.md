@@ -18,7 +18,7 @@ It seems to be quite a year for seeing dodgy old 80s band. So when I saw that Bl
 
 **Support**
 
-The support band were [Echoes](https://gigs.dave.org.uk/tag/echoes/), who I saw supporting [BEF](https://gigs.dave.org.uk/tag/british-electric-foundation/) a few weeks earlier. I was interested to see that I recognised some of the songs, so they obviously made a bigger impression on me than I thought at the time. I still think it's a bloody stupid name for a band though. I've just spent five minutes trying to find their web site and I all I can find is a sea of Pink Floyd Tribute bands.
+The support band were [Echoes](/acts/echoes/), who I saw supporting [BEF](/acts/british-electric-foundation/) a few weeks earlier. I was interested to see that I recognised some of the songs, so they obviously made a bigger impression on me than I thought at the time. I still think it's a bloody stupid name for a band though. I've just spent five minutes trying to find their web site and I all I can find is a sea of Pink Floyd Tribute bands.
 
 **Headline**
 

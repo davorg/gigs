@@ -20,7 +20,7 @@ asins:
 
 **Why this gig?**
 
-For the same reasons as I gave when I [last saw them](https://gigs.dave.org.uk/2014/11/paper-aeroplanes-union-chapel/) in November.
+For the same reasons as I gave when I [last saw them](/2014/11/paper-aeroplanes-union-chapel/) in November.
 
 **Support**
 

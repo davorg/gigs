@@ -23,7 +23,7 @@ Can 't find anything from the night, so here's the official video for Fabricstat
 
 **Why this gig?**
 
-Because Hannah Peel is great and I don't see her play live enough. It's been a couple of years since I saw her play one of her own gigs - though I've recently seen her a couple of times playing with the [Magnetic North](https://gigs.dave.org.uk/tag/the-magnetic-north/) and [John Foxx](https://gigs.dave.org.uk/tag/john-foxx-and-the-maths/).
+Because Hannah Peel is great and I don't see her play live enough. It's been a couple of years since I saw her play one of her own gigs - though I've recently seen her a couple of times playing with the [Magnetic North](/acts/the-magnetic-north/) and [John Foxx](/acts/john-foxx-and-the-maths/).
 
 This show was originally scheduled to take place in a boat house near Hammersmith. But a couple of weeks before the show I got an email saying that it had been moved to a pub in Hoxton.
 

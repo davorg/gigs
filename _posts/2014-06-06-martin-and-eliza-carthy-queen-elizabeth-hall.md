@@ -20,7 +20,7 @@ asins:
 
 **Why this gig?**
 
-Because it's [Martin](https://gigs.dave.org.uk/tag/martin-carthy/) and [Eliza](https://gigs.dave.org.uk/tag/eliza-carthy/) Carthy. And I see them play whenever I can.
+Because it's [Martin](/acts/martin-carthy/) and [Eliza](/acts/eliza-carthy/) Carthy. And I see them play whenever I can.
 
 Oh, and they've just released [their first album together](http://www.amazon.co.uk/gp/product/B00KNVI4VI/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00KNVI4VI&linkCode=as2&tag=davblog-21). I mean, sure they've obviously played on loads of albums together before - but this is the first one that has been credited to just the two of them.
 

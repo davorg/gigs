@@ -21,7 +21,7 @@ asins:
 
 **Why This Gig?**
 
-Because it's the Polyphonic Spree and they always put on a great show. I only discovered the band a few years ago and there have been very few opportunities to see them in the UK recently. The only other time I've seen them was their [Rocky Horror night](https://gigs.dave.org.uk/2012/10/the-polyphonic-spree-the-forum/) at the Forum last Halloween - which was a great night.
+Because it's the Polyphonic Spree and they always put on a great show. I only discovered the band a few years ago and there have been very few opportunities to see them in the UK recently. The only other time I've seen them was their [Rocky Horror night](/2012/10/the-polyphonic-spree-the-forum/) at the Forum last Halloween - which was a great night.
 
 This was a tiny, limited-ticket show to launch their new album _[Yes It's True](http://www.amazon.co.uk/gp/product/B00DYHPYO8/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00DYHPYO8&linkCode=as2&tag=davblog-21)_.
 

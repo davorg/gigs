@@ -28,7 +28,7 @@ At that point I became a fan. It was then just a case of waiting for their next 
 
 **Support**
 
-Support was from [Lorde](https://gigs.dave.org.uk/tag/lorde) who I had seen [two nights previously](https://gigs.dave.org.uk/2014/06/lorde-shepherds-bush-empire/). Earls Court is a rather different venue to the Shepherds Bush Empire and it's always harder when you're not playing to your own fans. I thought she did really well, but it was obvious that many of the people around me weren't particularly impressed.
+Support was from [Lorde](/acts/lorde/) who I had seen [two nights previously](/2014/06/lorde-shepherds-bush-empire/). Earls Court is a rather different venue to the Shepherds Bush Empire and it's always harder when you're not playing to your own fans. I thought she did really well, but it was obvious that many of the people around me weren't particularly impressed.
 
 **Headline**
 

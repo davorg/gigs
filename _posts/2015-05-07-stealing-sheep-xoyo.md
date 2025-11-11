@@ -34,7 +34,7 @@ Then there's [Gwenno](https://www.facebook.com/Gwennomusic). It's just her and h
 
 It's all running a bit late by the time the Gwenno finishes and it takes Stealing Sheep a long time to set up their equipment (there's a lot of equipment). This means it's 10:30pm by the time they start. This is unfortunate for a friend who I bumped into at the show - he had to leave at 10:45pm to catch a train.
 
-This is already the second time I've seen Stealing Sheep this year. The last time was their [album launch night](https://gigs.dave.org.uk/2015/02/stealing-sheep-chats-palace/). That was the first time I'd heard the songs from the new album. This time I've played it several times and the songs are already old friends.
+This is already the second time I've seen Stealing Sheep this year. The last time was their [album launch night](/2015/02/stealing-sheep-chats-palace/). That was the first time I'd heard the songs from the new album. This time I've played it several times and the songs are already old friends.
 
 The songs are obviously old friends to the band too. They play them with an impressive confidence and fluency. The audience love it too. Everyone is having a great time.
 

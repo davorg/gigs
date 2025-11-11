@@ -35,7 +35,7 @@ As I said, I don't listen to much Irish music these days, so I'm slightly worrie
 
 I'm also slightly worried that as I haven't listened to any of his new albums for ten years, I might not know many of the songs. But Christy has little time for promoting a new album. At each performance you're just as likely to hear something from any of the albums in his forty-five year career. He starts off with "Biko Drum" and follows it with "Yellow Triangle" and "Natives". All in all, I think I knew about three quarters of the songs.
 
-To me, Christy is at his best on ballads like "Nancy Spain" (which is early in the set) and "Ride On" (which comes towards the end). He even plays "Bright Blue Rose" which has always been one of my favourites and provides a nice contrast to the [Mary Black version](https://gigs.dave.org.uk/2014/03/clannad-shepherds-bush-empire/) which I heard a few weeks earlier.
+To me, Christy is at his best on ballads like "Nancy Spain" (which is early in the set) and "Ride On" (which comes towards the end). He even plays "Bright Blue Rose" which has always been one of my favourites and provides a nice contrast to the [Mary Black version](/2014/03/clannad-shepherds-bush-empire/) which I heard a few weeks earlier.
 
 Politics have always been an important part of Christy's repertoire and tonight is no exception. Christy is great at making politics personal - with songs like "Smoke and Strong Whiskey" and "Ordinary Man", both of which he plays.
 

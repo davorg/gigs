@@ -20,7 +20,7 @@ asins:
 
 **Why this gig?**
 
-This is the third time I've seen Tunng since I've started this site. I can only refer you to [my previous comments](https://gigs.dave.org.uk/tag/tunng/).
+This is the third time I've seen Tunng since I've started this site. I can only refer you to [my previous comments](/tag/tunng/).
 
 **Support**
 

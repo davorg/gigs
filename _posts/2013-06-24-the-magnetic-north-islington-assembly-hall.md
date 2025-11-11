@@ -17,13 +17,13 @@ asins:
 
 **Why This Gig?**
 
-I discovered Hannah Peel when I saw her supporting [Tunng](https://gigs.dave.org.uk/tag/tunng) a couple of years ago. I loved [her debut album](http://www.amazon.co.uk/gp/product/B004I01KRU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004I01KRU&linkCode=as2&tag=davblog-21) and I see her whenever I can. She hasn't been doing much solo stuff recently, but she plays with a couple of bands - [John Foxx and the Maths](https://gigs.dave.org.uk/tag/john-foxx-and-the-maths/) and [The Magnetic North](https://gigs.dave.org.uk/tag/the-magnetic-north). [The Magnetic North's album](http://www.amazon.co.uk/gp/product/B006ZJTNE4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006ZJTNE4&linkCode=as2&tag=davblog-21) was one of my favourite albums of last year.
+I discovered Hannah Peel when I saw her supporting [Tunng](/acts/tunng) a couple of years ago. I loved [her debut album](http://www.amazon.co.uk/gp/product/B004I01KRU/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B004I01KRU&linkCode=as2&tag=davblog-21) and I see her whenever I can. She hasn't been doing much solo stuff recently, but she plays with a couple of bands - [John Foxx and the Maths](/acts/john-foxx-and-the-maths/) and [The Magnetic North](/acts/the-magnetic-north). [The Magnetic North's album](http://www.amazon.co.uk/gp/product/B006ZJTNE4/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B006ZJTNE4&linkCode=as2&tag=davblog-21) was one of my favourite albums of last year.
 
-I saw The Magnetic North play at the [Purcell Room](https://gigs.dave.org.uk/category/purcell-room) last year and thoroughly enjoyed it. So I was very happy to see that they were playing in London again.
+I saw The Magnetic North play at the [Purcell Room](/venues/purcell-room) last year and thoroughly enjoyed it. So I was very happy to see that they were playing in London again.
 
 **Support**
 
-Support was from [Faroe](https://gigs.dave.org.uk/tag/faroe). I saw them a few weeks ago supporting [Paper Aeroplanes](https://gigs.dave.org.uk/tag/paper-aeroplanes) and thought they were very good. I was really happy to hear that they were support at this gig. They are two Norwegian women who sing lovely songs accompanied by an acoustic guitar. I found that I recognised a couple of the songs that they had played the last time I saw them - which means they must have made an impression on my. I'll be investigating them further.
+Support was from [Faroe](/acts/faroe). I saw them a few weeks ago supporting [Paper Aeroplanes](/acts/paper-aeroplanes) and thought they were very good. I was really happy to hear that they were support at this gig. They are two Norwegian women who sing lovely songs accompanied by an acoustic guitar. I found that I recognised a couple of the songs that they had played the last time I saw them - which means they must have made an impression on my. I'll be investigating them further.
 
 **Headline**
 

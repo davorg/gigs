@@ -28,7 +28,7 @@ Also, it's May Day, and that's a pretty good day to see Billy Bragg.
 
 **Support**
 
-Support is from [Seth Lakeman](https://gigs.dave.org.uk/tag/seth-lakeman/), who I last saw [a couple of months ago](https://gigs.dave.org.uk/2014/02/seth-lakeman-st-james-church/). On that occasion he was rather let down by the venue. Tonight he's much better.
+Support is from [Seth Lakeman](/acts/seth-lakeman/), who I last saw [a couple of months ago](/2014/02/seth-lakeman-st-james-church/). On that occasion he was rather let down by the venue. Tonight he's much better.
 
 Oh, and there's another (brief) support too. When Billy Bragg first started out, he played a number of shows with Porky the Poet. Tonight he's back to read us a few poems. These days, he's better known as Phill Jupitus.
 

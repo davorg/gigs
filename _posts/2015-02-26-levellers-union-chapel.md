@@ -20,7 +20,7 @@ asins:
 
 **Why this gig?**
 
-I loved the Levellers back in the early 90s. I saw them several times back then but haven't seen them play since about 1996. I thought it was probably about time to catch up with them again. And, of course, any excuse to go to a show at the [Union Chapel](https://gigs.dave.org.uk/category/union-chapel/).
+I loved the Levellers back in the early 90s. I saw them several times back then but haven't seen them play since about 1996. I thought it was probably about time to catch up with them again. And, of course, any excuse to go to a show at the [Union Chapel](/venues/union-chapel/).
 
 I'm pretty sure this is the first time I've actually paid to see the Levellers. Previously I've always seen them at festivals.
 

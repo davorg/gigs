@@ -27,7 +27,7 @@ Support is from Emilie Nicolas. From the set-up as she walked on stage with her
 
 **Headline**
 
-And then we have Chvrches. It's only a few months since I [last saw them play](https://gigs.dave.org.uk/2014/03/chvrches-forum/). And, to be honest, not a lot has changed in  that time. This gig is obviously still part of the same tour to promote [their debut album](http://www.amazon.co.uk/gp/product/B00DCQ2DC2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00DCQ2DC2&linkCode=as2&tag=davblog-21). The stage looks exactly the same; the performance is pretty similar; even the set-list is (as far as I can remember) identical.
+And then we have Chvrches. It's only a few months since I [last saw them play](/2014/03/chvrches-forum/). And, to be honest, not a lot has changed in  that time. This gig is obviously still part of the same tour to promote [their debut album](http://www.amazon.co.uk/gp/product/B00DCQ2DC2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00DCQ2DC2&linkCode=as2&tag=davblog-21). The stage looks exactly the same; the performance is pretty similar; even the set-list is (as far as I can remember) identical.
 
 Not that that's a bad thing. It's still a great show. They play pretty much all of the album and nothing else. It's a great album, but it would be good if they could break it up a bit. Perhaps throw in an obscure B-side. Or a cover version.
 

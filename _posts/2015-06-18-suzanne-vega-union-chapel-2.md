@@ -20,7 +20,7 @@ asins:
 
 **Why this gig?**
 
-For all the same reasons that [I've mentioned before](https://gigs.dave.org.uk/tag/suzanne-vega/). Plus this tour is to celebrate the 30th anniversary of her first album.
+For all the same reasons that [I've mentioned before](/acts/suzanne-vega/). Plus this tour is to celebrate the 30th anniversary of her first album.
 
 **Support**
 

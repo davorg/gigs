@@ -17,7 +17,7 @@ asins:
 
 **Why This Gig?**
 
-Because, as [I wrote a couple of weeks ago](https://gigs.dave.org.uk/2013/07/tom-robinson-tabernacle/), you should never miss an opportunity to see Tom Robinson play.
+Because, as [I wrote a couple of weeks ago](/2013/07/tom-robinson-tabernacle/), you should never miss an opportunity to see Tom Robinson play.
 
 And this was a slightly different kind of show. Tom was talking about the history of protest songs and singing some of his favourites. The event was put on by an organisation called the [English Speaking Union](http://www.esu.org/). They sound a bit dodgy, but if Tom Robinson is supporting them then they must be kosher.
 

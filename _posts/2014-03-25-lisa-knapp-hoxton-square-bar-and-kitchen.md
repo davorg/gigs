@@ -21,7 +21,7 @@ No video from the night, so here's "Black Horse" from Lisa's latest album, [_Hid
 
 **Why this gig?**
 
-I saw Lisa Knapp at the [Bert Jansch tribute show](https://gigs.dave.org.uk/2013/12/bert-jansch-tribute-royal-festival-hall/) last December and marked her down as someone that I should investigate further. It wasn't too long before tickets for this show went on sale, so I snapped one up.
+I saw Lisa Knapp at the [Bert Jansch tribute show](/2013/12/bert-jansch-tribute-royal-festival-hall/) last December and marked her down as someone that I should investigate further. It wasn't too long before tickets for this show went on sale, so I snapped one up.
 
 **Support**
 

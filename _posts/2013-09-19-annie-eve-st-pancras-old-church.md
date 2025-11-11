@@ -12,7 +12,7 @@ featuredVideo: "http://youtu.be/esO1hn1CjDY"
 ---
 <!--more--> **Why this gig?**
 
-Earlier this year, my friend [Antonio](https://gigs.dave.org.uk/tag/antonio-lulic/) told me that he was playing at [the Bedford](https://gigs.dave.org.uk/category/the-bedford/) and that I should really make an effort to be there as Annie Eve was on the same bill and she was really rather special. I trust Ant's musical taste, so [I made sure I was there](https://gigs.dave.org.uk/2013/02/annie-eve-the-bedford/). As always, Ant was right. I was completely blown away by Annie Eve. The following day, I wrote this:
+Earlier this year, my friend [Antonio](/acts/antonio-lulic/) told me that he was playing at [the Bedford](/venues/the-bedford/) and that I should really make an effort to be there as Annie Eve was on the same bill and she was really rather special. I trust Ant's musical taste, so [I made sure I was there](/2013/02/annie-eve-the-bedford/). As always, Ant was right. I was completely blown away by Annie Eve. The following day, I wrote this:
 
 https://twitter.com/davorg/statuses/307431767164461057
 

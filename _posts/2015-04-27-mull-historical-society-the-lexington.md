@@ -31,7 +31,7 @@ Later in evening Sorren Maclean will be on stage with the band, but he starts th
 
 So this is all of the Mull Historical Society's fir album, [_Loss_](http://www.amazon.co.uk/gp/product/B00005QD2N/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00005QD2N&linkCode=as2&tag=davblog-21&linkId=EZPZ3MYYFXQ2F4LV). I thought I know nothing of this album, but there's one song (also called "Mull Historical Society") that I recognise, so I must have known about it at some point.
 
-It's hard to sum up the band's sound. My mind keeps drawing comparisons with the Beta Band, but there's quiet a lot more of a traditional sound in the Mull Historical Society's music. Perhaps you could describe them as a Scottish version of [Tunng](https://gigs.dave.org.uk/tag/tunng/) - which would certainly explain why I enjoyed the show so much.
+It's hard to sum up the band's sound. My mind keeps drawing comparisons with the Beta Band, but there's quiet a lot more of a traditional sound in the Mull Historical Society's music. Perhaps you could describe them as a Scottish version of [Tunng](/acts/tunng/) - which would certainly explain why I enjoyed the show so much.
 
 I don't know much about the band. I know it's really just a front for Colin MacIntyre, but I don't know how stable the rest of the line-up is. Are there people who have been playing with the band for years or does he just hire a group of musicians. I should really investigate further.
 
