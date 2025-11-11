@@ -1,0 +1,30 @@
+# --- Jekyll build artefacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass cache (older setups)
+.sass-cache/
+
+# --- Bundler & Ruby
+.bundle/
+vendor/bundle/
+
+# Keep Gemfile.lock committed to lock versions for CI
+# Gemfile.lock
+
+# --- Node (if you add any tooling later)
+node_modules/
+
+# --- OS/editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# --- Amazon cover cache (ONLY ignore if you generate these at build time)
+# If you plan to commit covers, comment this out.
+# assets/amazon/
+
