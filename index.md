@@ -18,8 +18,9 @@ of those videos no longer exist.
 
 It didn't last long - just a couple of years. I was often slow at getting
 round to writing the reviews, and I sometimes found I couldn't really
-remember much. For the last few months, I was just posting videos. I think
-I had the idea I would go back and fill in the reviews. I never did.
+remember enough detail to make the reviews interesting. For the last few
+months, I was just posting videos. I think I had the idea I would go back
+and fill in the reviews later. I never did.
 
 At the end of 2015, I finally stopped. But the site remained online and it
 still gets a few visitors from Google every month.
