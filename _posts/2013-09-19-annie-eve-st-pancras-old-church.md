@@ -14,9 +14,9 @@ featuredVideo: "http://youtu.be/esO1hn1CjDY"
 
 Earlier this year, my friend [Antonio](/acts/antonio-lulic/) told me that he was playing at [the Bedford](/venues/the-bedford/) and that I should really make an effort to be there as Annie Eve was on the same bill and she was really rather special. I trust Ant's musical taste, so [I made sure I was there](/2013/02/annie-eve-the-bedford/). As always, Ant was right. I was completely blown away by Annie Eve. The following day, I wrote this:
 
-https://twitter.com/davorg/statuses/307431767164461057
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So last night I saw <a href="https://twitter.com/AnnieEvemusic?ref_src=twsrc%5Etfw">@AnnieEveMusic</a> at <a href="https://twitter.com/BedfordLIVE?ref_src=twsrc%5Etfw">@BedfordLive</a>. Probably the best new act I&#39;ve seen since <a href="https://twitter.com/stealingsheep?ref_src=twsrc%5Etfw">@stealingsheep</a> 18 months ago.</p>&mdash; Dave Cross (@davorg) <a href="https://twitter.com/davorg/status/307431767164461057?ref_src=twsrc%5Etfw">March 1, 2013</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-And some of you might remember just how excited I got about Stealing Sheep.
+And some of you might remember just how excited I got about [Stealing Sheep](/acts/stealing-sheep/).
 
 Anyway, it was clear that I had to see Annie Eve again. And this was my first real chance.
 
