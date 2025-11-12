@@ -82,7 +82,7 @@
 {%- elsif page.coverImage and page.coverImage != '' -%}
   {%- assign y = page.date | date: "%Y" -%}
   {%- assign m = page.date | date: "%m" -%}
-  {%- capture img_path -%}/assets/uploads/posts/{{ y }}/{{ m }}/images/{{ page.coverImage }}{%- endcapture -%}
+  {%- capture img_path -%}/assets/images/{{ y }}/{{ m }}/{{ page.coverImage }}{%- endcapture -%}
   <figure class="gig-cover" style="margin:1rem 0 2rem">
     <img src="{{ img_path | relative_url }}" alt="{{ page.title | escape }}" loading="lazy">
   </figure>
