@@ -1,6 +1,6 @@
 ---
 layout: default
-title: All Posts
+title: All Gigs
 ---
 
 Back in 2012 I was going to a *lot* of gigs. Usually at least one
