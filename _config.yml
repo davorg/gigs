@@ -4,8 +4,7 @@ url: "https://gigs.dave.org.uk"
 baseurl: ""            # e.g. "/gigs" if hosted under a subpath
 permalink: /:year/:month/:title/
 
-author:
-  name: Dave Cross
+author: Dave Cross
 
 social:
   name: Dave Cross
