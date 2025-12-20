@@ -1,8 +1,5 @@
 ---
-{%- assign slug = page.url | split:'/' | compact | last -%}
 # Archive page for a single venue (category)
-redirect_from:
-  - /category/{{ slug }}
 ---
 <!doctype html>
 <html lang="en">
@@ -12,6 +9,7 @@ redirect_from:
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+        {%- assign slug = page.url | split:'/' | compact | last -%}
         {%- assign venue_name = site.data.venues[slug] | default: slug -%}
         <h1>Venue: {{ venue_name }}</h1>
 
