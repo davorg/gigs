@@ -33,13 +33,13 @@ module LegacyRedirects
     def generate(site)
       # roots
       site.pages << RedirectPage.new(site, "category", "/venues/")
-      site.pages << RedirectPage.new(site, "tags", "/acts/")
+      site.pages << RedirectPage.new(site, "tag", "/acts/")
       # per-venue and per-act
       (site.config["categories"] || site.categories).each_key do |slug|
         site.pages << RedirectPage.new(site, "category/#{slug}", "/venues/#{slug}/")
       end
       (site.config["tags"] || site.tags).each_key do |slug|
-        site.pages << RedirectPage.new(site, "tags/#{slug}", "/acts/#{slug}/")
+        site.pages << RedirectPage.new(site, "tag/#{slug}", "/acts/#{slug}/")
       end
     end
   end
