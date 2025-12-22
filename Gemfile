@@ -8,5 +8,6 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-archives", "~> 2.3"
   gem "jekyll-seo-tag", "~> 2.8"
+  gem "jekyll-taxonomy-redirects", "~> 0.1"
 end
 

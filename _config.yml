@@ -19,6 +19,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-taxonomy-redirects
 
 # Generate per-venue (category) and per-act (tag) pages
 jekyll-archives:
@@ -37,6 +38,15 @@ jekyll-archives:
     tag: /acts/:name/
     year: /:year/
     month: /:year/:month/
+
+taxonomy_redirects:
+  emit_canonical: true
+  roots:
+    - { from: "/category", to: "/venues" }
+    - { from: "/tags",     to: "/acts"   }
+  maps:
+    - { type: "category", from: "/category", to: "/venues" }
+    - { type: "tag",      from: "/tags",     to: "/acts"   }
 
 header_pages:
   - index.md
