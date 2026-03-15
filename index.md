@@ -35,7 +35,7 @@ Maybe you'll find something interesting or nostalgic on the site. I hope
 I wasn't too nasty about your favourite band.
 
 <p style="text-align: right">
-  - <a href="https://links.dave.org.uk/">Dave</a> (November 2025)
+  - <a href="https://links.davecross.co.uk/">Dave</a> (November 2025)
 </p>
 
 <ul>
